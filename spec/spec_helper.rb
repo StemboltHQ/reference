@@ -60,6 +60,9 @@ Spork.prefork do
 end
 
 Spork.each_run do
+  ActiveRecord::Schema.verbose = false
+  load "#{Rails.root.to_s}/db/schema.rb"
+
   if ENV['DRB']
     require 'simplecov'
     SimpleCov.start 'rails'
