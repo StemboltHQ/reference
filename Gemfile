@@ -23,7 +23,15 @@ end
 gem 'jquery-rails'
 
 group :development, :test do
+  gem 'irbtools'
+  gem 'guard'
+  gem 'guard-bundler'
+  gem 'guard-livereload'
+  gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'libnotify'
   gem 'spork'
+  gem 'rb-inotify'
   gem 'rspec-rails'
   gem 'simplecov', :require => false
   gem 'simplecov-rcov', :require => false
