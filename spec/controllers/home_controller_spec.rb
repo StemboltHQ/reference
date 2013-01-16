@@ -2,11 +2,9 @@ require 'spec_helper'
 
 describe HomeController do
   describe 'GET index' do
-    let!(:plugin) { VimPlugin.create! }
-
-    it 'gets a plugin' do
+    it 'does hello world' do
       get :index
-      assigns(:plugin).should == plugin
+      assigns(:hello).should == "World"
     end
   end
 end
