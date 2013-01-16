@@ -13,12 +13,4 @@
 
 ActiveRecord::Schema.define(:version => 20121220182213) do
 
-  create_table "vim_plugins", :force => true do |t|
-    t.string   "name"
-    t.string   "author"
-    t.string   "url"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
 end
