@@ -1,3 +1,6 @@
 This is a reference for how to set up a deployment pipeline.
 
 Jenkins projects can use this to know how to build themselves.
+
+This project also uses rspec and provides coverage with simplecov
+and simplecov-rcov (for Jenkins compatibility).
