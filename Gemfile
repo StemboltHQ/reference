@@ -24,6 +24,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'simplecov', :require => false
   gem 'simplecov-rcov', :require => false
+  gem 'fuubar'
 end
 
 group 'production' do
